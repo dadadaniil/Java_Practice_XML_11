@@ -1,17 +1,19 @@
 import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import java.sql.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 public class StudentHandler extends DefaultHandler {
+    protected List<Result> results = new ArrayList<>();
     private String loginValue = null;
     private boolean bLogin = false;
     private boolean bTest = false;
 
-    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+    public void startElement(String uri, String localName, String qName, Attributes attributes) {
         if (qName.equalsIgnoreCase("login")) {
             bLogin = true;
         } else if (qName.equalsIgnoreCase("test")) {
@@ -25,12 +27,11 @@ public class StudentHandler extends DefaultHandler {
             } catch (ParseException e) {
                 e.printStackTrace();
             }
-            Result result = new Result(testName, loginValue, date, Double.parseDouble(testMark));
-            System.out.println(result);
+            results.add(new Result(testName, loginValue, date, Double.parseDouble(testMark)));
         }
     }
 
-    public void characters(char ch[], int start, int length) throws SAXException {
+    public void characters(char[] ch, int start, int length) {
         if (bLogin) {
             loginValue = new String(ch, start, length);
             bLogin = false;

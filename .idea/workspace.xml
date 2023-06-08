@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50646e1c-f0a7-49ff-98a9-17ed25f33c05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StudentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/results.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="50646e1c-f0a7-49ff-98a9-17ed25f33c05" name="Changes" comment="stage 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +81,18 @@
       <workItem from="1686039695169" duration="7146000" />
       <workItem from="1686137887548" duration="6393000" />
       <workItem from="1686204261818" duration="193000" />
-      <workItem from="1686229519524" duration="960000" />
+      <workItem from="1686229519524" duration="4840000" />
+      <workItem from="1686249283108" duration="107000" />
+      <workItem from="1686250066946" duration="1393000" />
     </task>
+    <task id="LOCAL-00001" summary="just successful sout">
+      <created>1686230521693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686230521693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +109,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="just successful sout" />
+    <MESSAGE value="stage 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="stage 1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -112,11 +121,6 @@
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="11" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Result.java</url>
           <line>48</line>

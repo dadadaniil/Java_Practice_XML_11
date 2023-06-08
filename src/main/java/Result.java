@@ -11,7 +11,7 @@ public class Result {
         this.test = test;
         this.login = login;
         this.date = date;
-        this.mark = (int) (mark*10);
+        this.mark = (int) (mark * 10);
     }
 
     public Result() {
@@ -42,15 +42,15 @@ public class Result {
     }
 
     public int getMark() {
-        return mark/10;
+        return mark / 10;
     }
 
     public void setMark(double mark) {
-        this.mark = (int) mark*10;
+        this.mark = (int) mark * 10;
     }
 
     @Override
     public String toString() {
-        return String.format("%s;%s;%s;%s", login, test, date, new DecimalFormat("#0.0").format(mark/10.0));
+        return String.format("%s;%s;%s;%s", login, test, date, new DecimalFormat("#0.0").format(mark / 10.0));
     }
 }
