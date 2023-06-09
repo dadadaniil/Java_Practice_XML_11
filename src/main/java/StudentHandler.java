@@ -21,11 +21,11 @@ public class StudentHandler extends DefaultHandler {
             String testName = attributes.getValue("name");
             String testDate = attributes.getValue("date");
             String testMark = attributes.getValue("mark");
-            Date date = null;
+            Date date;
             try {
                 date = new Date(new SimpleDateFormat("yyyy-MM-dd").parse(testDate).getTime());
             } catch (ParseException e) {
-                e.printStackTrace();
+                throw new IllegalArgumentException();
             }
             results.add(new Result(testName, loginValue, date, Double.parseDouble(testMark)));
         }

@@ -1,5 +1,4 @@
 import java.sql.Date;
-import java.text.DecimalFormat;
 
 public class Result {
     private String test;
@@ -51,6 +50,12 @@ public class Result {
 
     @Override
     public String toString() {
-        return String.format("%s;%s;%s;%s", login, test, date, new DecimalFormat("#0.0").format(mark / 10.0));
+        return String.format("%s;%s;%s;%s", login, test, date, getStringMark());
     }
+
+    public String getStringMark() {
+        return (mark / 10) + "." + (mark % 10);  //без вещественных типов!!!
+    }
+
+
 }
