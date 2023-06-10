@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50646e1c-f0a7-49ff-98a9-17ed25f33c05" name="Changes" comment="stage 1">
+    <list default="true" id="50646e1c-f0a7-49ff-98a9-17ed25f33c05" name="Changes" comment="stage 2 is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StudentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,12 @@
       <workItem from="1686229519524" duration="4840000" />
       <workItem from="1686249283108" duration="107000" />
       <workItem from="1686250066946" duration="1998000" />
-      <workItem from="1686327246822" duration="1800000" />
+      <workItem from="1686327246822" duration="2239000" />
+      <workItem from="1686329567061" duration="45000" />
+      <workItem from="1686330206453" duration="595000" />
+      <workItem from="1686333435767" duration="12000" />
+      <workItem from="1686368623500" duration="57000" />
+      <workItem from="1686369154346" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="just successful sout">
       <created>1686230521693</created>
@@ -100,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686251927136</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="stage 2 is done">
+      <created>1686329125003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686329125003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="just successful sout" />
     <MESSAGE value="stage 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="stage 1" />
+    <MESSAGE value="stage 2 is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="stage 2 is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -131,17 +142,17 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Result.java</url>
-          <line>48</line>
+          <line>47</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Result.java</url>
-          <line>13</line>
+          <line>12</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Result.java</url>
-          <line>47</line>
+          <line>46</line>
           <properties class="Result" method="setMark">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

@@ -45,7 +45,7 @@ public class Result {
     }
 
     public void setMark(double mark) {
-        this.mark = (int) mark * 10;
+        this.mark = (int) (mark * 10);
     }
 
     @Override
